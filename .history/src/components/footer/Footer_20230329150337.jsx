@@ -42,15 +42,15 @@ const Footer = () => (
           <use xlinkHref={`${process.env.PUBLIC_URL}/sprite.svg#facebook`} />
         </svg>
       </Link>
-      <Link
-        to={"/"} 
+      <a 
+        href="#" 
         target="_blank"
         rel="noreferrer"
       >
         <svg className='icon'>
           <use xlinkHref={`${process.env.PUBLIC_URL}/sprite.svg#youtube`} />
         </svg>
-      </Link>
+      </a>
     </div>
   </section>
 )

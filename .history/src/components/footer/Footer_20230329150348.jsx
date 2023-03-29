@@ -43,7 +43,7 @@ const Footer = () => (
         </svg>
       </Link>
       <Link
-        to={"/"} 
+        to={} 
         target="_blank"
         rel="noreferrer"
       >

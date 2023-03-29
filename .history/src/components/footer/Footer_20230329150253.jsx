@@ -15,42 +15,42 @@ const Footer = () => (
     </div>
     <div className={styles.rights}>
       Developed by{" "}
-      <Link 
-        to={"/"}
+      <L 
+        href="#" 
         target="_blank"
         rel="noreferrer"
       >
         Azim
-      </Link>
+      </L>
     </div>
     <div className={styles.socials}>
-      <Link
-        to={"/"}
+      <a 
+        href="#" 
         target="_blank"
         rel="noreferrer"
       >
         <svg className='icon'>
           <use xlinkHref={`${process.env.PUBLIC_URL}/sprite.svg#instagram`} />
         </svg>
-      </Link>
-      <Link
-        to={"/"} 
+      </a>
+      <a 
+        href="#" 
         target="_blank"
         rel="noreferrer"
       >
         <svg className='icon'>
           <use xlinkHref={`${process.env.PUBLIC_URL}/sprite.svg#facebook`} />
         </svg>
-      </Link>
-      <Link
-        to={"/"} 
+      </a>
+      <a 
+        href="#" 
         target="_blank"
         rel="noreferrer"
       >
         <svg className='icon'>
           <use xlinkHref={`${process.env.PUBLIC_URL}/sprite.svg#youtube`} />
         </svg>
-      </Link>
+      </a>
     </div>
   </section>
 )
